@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PercentCycle">
+        <!--大圆的半径-->
+        <attr name="percent_big_circle_radius" format="dimension|reference" />
+        <!--大圆的颜色-->
+        <attr name="percent_big_circle_color" format="color|reference" />
+        <!--小圆的直径和大圆的半径的比值-->
+        <attr name="percent_small_circle_diameter_rate" format="float|reference" />
+        <!--小圆的颜色-->
+        <attr name="percent_small_circle_color" format="color|reference" />
+        <!--斜杠的宽度-->
+        <attr name="percent_slash_width" format="dimension|reference" />
+        <!--斜杠的长度跟大圆直径的比值-->
+        <attr name="percent_slash_length_rate" format="float|reference" />
+        <!--斜杠的颜色-->
+        <attr name="percent_slash_color" format="color|reference" />
+        <!--分子的大小-->
+        <attr name="percent_number_top_left_size" format="dimension|reference" />
+        <!--分子的颜色-->
+        <attr name="percent_number_top_left_color" format="color|reference" />
+        <!--分母的大小-->
+        <attr name="percent_number_bottom_right_size" format="dimension|reference" />
+        <!--分母的颜色-->
+        <attr name="percent_number_bottom_right_color" format="color|reference" />
+    </declare-styleable>
+
+</resources>
